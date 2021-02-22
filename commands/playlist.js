@@ -105,7 +105,7 @@ module.exports = {
                 serverQueue.songs.push(song);
                 if (playlist) return;
                 let thing = new MessageEmbed()
-                    .setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+                    .setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/TheOnlyMrLucifer/Discord-MusicBot/master/assets/giphy.gif")
                     .setThumbnail(song.img)
                     .setColor("YELLOW")
                     .addField("Name", song.title, true)
@@ -152,7 +152,7 @@ module.exports = {
 
             dispatcher.setVolume(serverQueue.volume / 100);
             let thing = new MessageEmbed()
-                .setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+                .setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/TheOnlyMrLucifer/Discord-MusicBot/master/assets/giphy.gif")
                 .setThumbnail(song.img)
                 .setColor("BLUE")
                 .addField("Name", song.title, true)
