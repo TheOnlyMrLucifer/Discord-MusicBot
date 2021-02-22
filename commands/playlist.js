@@ -57,7 +57,7 @@ module.exports = {
                     await handleVideo(video, message, channel, true); // eslint-disable-line no-await-in-loop
                 }
                 let thing = new MessageEmbed()
-                    .setAuthor("Playlist has been added to queue", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+                    .setAuthor("Playlist has been added to queue", "https://raw.githubusercontent.com/TheOnlyMrLucifer/Discord-MusicBot/master/assets/giphy.gif")
                     .setThumbnail(songInfo.thumbnail)
                     .setColor("GREEN")
                     .setDescription(`✅  **|**  Playlist: **\`${songInfo.title}\`** has been added \`${songInfo.videoCount}\` video to the queue`);
